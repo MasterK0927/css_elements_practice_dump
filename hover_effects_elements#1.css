@@ -1,0 +1,53 @@
+.Bodys{
+    background-color: black;
+}
+
+
+
+.intro {
+    background-color: aquamarine;
+    align-items: center;
+    font-weight: 600;
+    margin-left: 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.flex {
+    display: flex;
+    align-items: center;
+    display: inline;
+}
+.flex:hover{
+    background-color:bisque;
+}
+
+
+.hoverable:hover{
+    color: red;
+    transition: 0.2s ease-out;
+}
+a{
+    text-decoration: none;
+}
+.shadow{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight: 800;
+    text-shadow: 1px 1px red;
+    background-color: aquamarine;
+    padding: 1px 20px 6px 20px;
+    text-align: center;
+}
+
+.shadow:hover{
+    text-shadow: 2px 2px red;
+    border-style: dotted;
+    font-weight: 1000;
+    background-color: blanchedalmond;
+    transition: 0.2s ease-in;
+
+}
+
