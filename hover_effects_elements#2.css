@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+.flex{
+    display: inline-flex;
+}
+.flex:hover{
+    border-style: dashed;
+    text-align: center;
+}
+
+
+.intro{
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.effect{
+    font-family: 'Rubik Iso', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+}
+
+.effect:hover{
+    font-family: "Silkscreen";
+    font-size: 35px;
+    color: red ;
+
+}
