@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1.2rem;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(to right, rgb(133, 70, 3), rgb(230, 160, 86));
+} 
+
+.left-text{
+    flex-basis: 30%;
+    text-align: center;
+    /* margin: 0px 800px 0px 100px ; */
+    /* margin: 0 50vw 0 10vw;
+    padding: 20px; */
+    background: #ffffff22;
+    backdrop-filter: blur(2px);
+    border-radius: 30px;
+    box-shadow: 4px 4px 5px rgb(133, 70, 3),-4px -4px 5px rgb(154, 106, 54) ;
+}
+
+.heading{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: aliceblue;
+    text-shadow: 2px 2px 3px black;
+}
+
+/* .container .left-text .heading-div .img-div{
+    display: flex;
+
+} */
+
+/* .container .left-text .heading-div .img-div img{
+    width: 40px;
+    height: 30px;
+    margin: 0vh 4vw;
+} */
+
+.subheading{
+    color: aliceblue;
+    content-visibility: hidden;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.subheading li{
+    margin-bottom: 10px;
+}
+
+.subheading li img{
+    width: 30px;
+    height: 30px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.585),-3px -3px 4px  rgba(0, 0, 0, 0.585);
+    background-filter:blur(3px) ;
+}
+
+/* .container .heading-div .subhead{
+    visibility: hidden;
+}  */
+
+.left-text:hover{
+    background: url(https://lh3.googleusercontent.com/5fYxtNRSJ5yy1qtdR3LwN4X01eAxsmrc4fFftHoWbdrBVr9zVLqP9utcqM8svgwXnIAWqcpZepsHZ4xhxY2f7o1vNbuBwEn8-KEG9VZDdyq80VkDgFg3lR_j586AMuVM3eoV4EsHZg=w2400) ;
+    background-color: #000000af;
+    background-size: 100%;
+    background-blend-mode: multiply;
+    background-position: top;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+
+}
+
+/* .left-text:hover > .heading-div{
+    display: flex;
+} */
+
+/* .left-text:hover > .heading-div > .img-div{
+    visibility: hidden;
+} */
+
+.left-text:hover > .heading-div > .heading{
+    font-size: 2rem;
+    text-shadow: 2px 2px 3px black, -2px -2px 3px black;
+}
+
+/* .left-text:hover > .heading-div > .img-div > .subhead{
+    visibility: visible;
+    font-weight: bold;
+    color: white;
+} */
+
+.left-text:hover > .subheading {
+    cursor: pointer;
+    content-visibility:visible;
+    margin-bottom: 200px;
+    text-align: left;
+    transition: all 2s ease-in-out;
+}
+
+.subheading li img:hover{
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.585), inset -2px -2px 3px rgba(0, 0, 0, 0.585) ;
+    transition: 1s ease-in-out;
+}
+
+.gallery{
+    flex-basis: 50%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 120px;
+}
+
+.box{
+    background-size: cover;
+    background-position: top;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition: all 1s ease-in-out;
+    box-shadow: 3px 3px 4px rgb(105, 54, 3);
+}
+
+.gallery .row-1{
+    grid-row: span 2;
+}
+
+.gallery .col-1{
+    grid-column: span 2;
+}
+
+.box:hover{
+    background-color: white;
+    cursor: pointer;
+    background-blend-mode: multiply;
+    background-position: center;
+    box-shadow: inset 2px 2px 3px rgb(255, 255, 255), inset -2px -2px 3px rgb(249, 250, 251);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
