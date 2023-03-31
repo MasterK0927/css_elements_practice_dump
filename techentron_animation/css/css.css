@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'techentron-font';
+    src: url('../font/daikon-bold-webfont.woff');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* button-1 */
+
+/* .button-box{
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+    display: inline;
+    font-size: 2.5rem;
+    color: green;
+}
+
+.button-box::before{
+    content: "";
+    position: absolute;
+    mix-blend-mode: multiply;
+    background-color: burlywood;
+    width: 30%;
+    height: 100%;
+    left: -10%;
+    top: 0;
+    border-radius: 30px ;
+    transition: 1s ease-in;
+    
+}
+
+.button-box:hover::before{
+    width: 120%;
+}
+
+.button-box:hover{
+    color: black;
+} */
+
+
+/* button-2 */
+a{
+    text-decoration: none;
+}
+
+.button2{
+    position: relative;
+    top: 45vh;
+    left: 45vw;
+    display: inline;
+    color: rgba(255, 255, 255, 0);
+    background-image: url(../images/techentron.jpg);
+    background-size: 100% 100%;
+    font-size: 2.2rem;
+    font-family: 'techentron-font';
+    /* border: 2px solid blue; */
+    padding: 15px 40px;
+    border: 2px solid rgb(91, 47, 47);
+    box-shadow: 2px 2px 3px rgb(85, 42, 42), -2px -2px 3px rgb(91, 47, 47) ;
+}
+.para{
+    position: absolute;
+    top: 49.5%;
+    left: 49.5%;
+    font-family: 'techentron-font';
+    display: inline;
+    visibility: hidden;
+}
+
+ul{
+    list-style: none;
+}
+.cloud1{
+    position: absolute;
+    background-color: burlywood;
+    top: 55%;
+    left: 45%;
+    width: 5.5%;
+    height: 12%;
+    border-radius: 40px 40px 0px 0px ;
+    transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045) 0.1s;
+    z-index: -1;
+}
+.cloud2{
+    position: absolute;
+    background-color: burlywood;
+    top: 55%;
+    left: 49%;
+    width: 5.5%;
+    height: 12%;
+    border-radius: 40px 40px 0px 0px;
+    transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045) 0.5s;
+    z-index: -1;
+}
+.cloud3{
+    position: absolute;
+    background-color: burlywood;
+    top: 55%;
+    left: 53%;
+    width: 5.5%;
+    height: 12%;
+    border-radius: 40px 40px 0px 0px ;
+    transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045) 1s;
+    z-index: -1;
+}
+.cloud4{
+    position: absolute;
+    background-color: burlywood;
+    top: 55%;
+    left: 57%;
+    width: 6%;
+    height: 12%;
+    border-radius: 40px 40px 0px 0px ;
+    transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045) 1.5s;
+    z-index: -1;
+}
+
+a:hover > .button2{
+    color:#fcba2c;
+    text-shadow: 4px 4px 5px black;
+    background-image: none;
+    transition: 1.5s ease-in 0s;
+    box-shadow: none;
+    border: none;
+    cursor: none;
+    top: 43vh;
+}
+    
+a:hover + .para{
+    visibility: visible;
+    transition: 1.5s ease-in 1.495s visibility;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+a:hover + .para + ul > .cloud1{
+    border-radius: 35px;
+    background-color: #ed1c24;
+    transform: scale(1.5) translate(0,-70%) rotate(-22.5deg);
+    /* box-shadow: 0px 2px 0px black,0px -2px 0px black; */
+}
+a:hover + .para + ul > .cloud2{
+    border-radius: 35px;
+    background-color: #fcba2c;
+    transform: scale(1.5) translate(0,-70%) rotate(22.5deg);
+    /* box-shadow: 0px 1px 0px black,0px -1px 0px black; */
+}
+a:hover +  .para + ul > .cloud3{
+    border-radius: 35px;
+    background-color: #fd4900;
+    transform: scale(1.5) translate(0,-70%) rotate(-22.5deg);
+    /* box-shadow: 0px 1px 0px black,0px -1px 0px black; */
+}
+a:hover + .para + ul > .cloud4{
+    border-radius: 35px;
+    background-color: #222187;
+    transform: scale(1.5) translate(0,-70%) rotate(22.5deg);
+    /* box-shadow: 0px 2px 0px black,0px -2px 0px black; */
+}
+
+
+
+
